@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<diagram>
+  <Block DX="60.0" DY="40.0" X="-82.0" Y="-286.0">
+    <Name>Multi0</Name>
+    <Type>MutiPass</Type>
+    <Library>Library</Library>
+  </Block>
+  <Block DX="60.0" DY="40.0" X="66.0" Y="-490.0">
+    <Name>BlockC0</Name>
+    <Type>CBlock</Type>
+    <Library>TehLib</Library>
+  </Block>
+  <Block DX="60.0" DY="40.0" X="119.0" Y="-196.0">
+    <Name>BlockC_1</Name>
+    <Type>CBlock</Type>
+    <Library>TehLib</Library>
+  </Block>
+  <LibraryFile>G:/Workspace/BlockTool/BlockDiagram/BlockDiagram/_work/LibExample.xml</LibraryFile>
+  <Connection Begin="BlockC0/PortX" End="Multi0/P2"/>
+  <Connection Begin="BlockC_1/PortX" End="Multi0/P2"/>
+</diagram>

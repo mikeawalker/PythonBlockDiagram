@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BD:BlockDiagram xmlns:BD="BlockDiagram" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="BlockDiagram BlockDiagram.xsd ">
+	<Block DX="30" DY="20" Name="MyBlock" X="10" Y="10">
+		<Port Name="PortA" Direction="In" /><Port Name="PortX"
+			Direction="In" ></Port>
+		<Port Name="PortC"
+			Direction="Out" />
+
+		<Type>BlockA</Type>
+		<Library>BlockLib</Library>
+	</Block>
+	<Block DX="45" DY="20" Name="TheirBlock" X="50" Y="60">
+		<Port Name="PortA" Direction="In" />
+		<Type>Type</Type>
+		<Library>Library</Library>
+	</Block>
+	<Connection Name="MyConn">
+		<Start BlockName="MyBlock" PortName="PortC" />
+		<End BlockName="TheirBlock" PortName="PortA" />
+	</Connection>
+
+
+
+</BD:BlockDiagram>

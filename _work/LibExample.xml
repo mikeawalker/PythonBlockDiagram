@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BD:BlockLibrary xmlns:BD="BlockDiagram" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="BlockDiagram BlockDiagram.xsd ">
+  <Block DX="40" DY="40" Name="BlockA" X="200" Y="200">
+    <Port Name="PortA" Direction="In" />
+	<Port Name="PortX" Direction="In" />
+	<Port Name="PortC" Direction="Out" />
+    <Type>Type</Type>
+    <Library>MyLib</Library>
+  </Block>
+  <Block DX="40" DY="40" Name="BlockB" X="200" Y="200">
+    <Port Name="PortZ" Direction="In" />
+    <Type>BBlock</Type>
+    <Library>TehLib</Library>
+  </Block>
+  <Block DX="40" DY="40" Name="BlockC" X="200" Y="200">
+  <Port Name="PortX" Direction="In" />
+  <Type>CBlock</Type>
+  <Library>TehLib</Library>
+  </Block>
+  <Block Name="Multi" DY="20" DX="30" Y="100" X="10">
+  	<Port Name="P1" Direction="TwoWay" /><Port Name="P2" Direction="Out" ></Port>
+  	<Type>MutiPass</Type>
+  	<Library>Library</Library>
+  </Block>
+</BD:BlockLibrary>
